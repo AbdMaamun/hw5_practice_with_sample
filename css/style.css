@@ -1,0 +1,93 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: sans-serif;
+}
+/*common css end*/
+/*header start*/
+header{
+	
+	background-color: black;
+	padding: 10px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	width: 5%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 20px;
+	font-size: 18px;
+	display: inline-block;
+	color: tomato;
+	text-decoration: none;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	
+	background-color: black;
+	padding: 110px 50px 120px 50px;
+
+}
+.container2{
+	margin: 20px auto;
+	width: 40%;
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	margin: 0;
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+	line-height: 20px;
+}
+.b_content p{
+	margin: 15px 0 30px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: sans-serif;
+	color: white;
+	word-spacing: 8px;
+	letter-spacing: 3px;
+	line-height: 70px;
+}
+.b_img{
+	width: 40%;
+	margin: 0 auto;
+}
+.b_img img{
+	width: 100%;
+}
+
+
+
+/*banner end*/
